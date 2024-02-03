@@ -4,59 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/contact.css">
 </head>
 <body>
     <div class="contact-page">
         <header>
-            <div>
-                <div><a href="index.html">FitPro</a></div>
-                <div>
+            <div class="navbar nav-bg">
+                <div class="logo"><a href="index.html">FitPro</a></div>
+                <div class="nav-links">
                     <ul>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Contact Us</li>
+                        <li ><a href="./index.html"> Home</a></li>
+                        <li><a  href="./about.html">About</a></li>
+                        <li><a class="active" href="./contact.html">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
         </header>
-        <div class="contactme-form">
+        <div class="contactme-container">
             <h2>Get In Touch</h2>
-            <div>
-                <form action="">
-                    <input type="text" placeholder="Name">
-                    <input type="email" placeholder="Email">
-                    <input type="text" placeholder="Phone Number">
-                    <button class="send-btn" >SEND</button>
-                </form>
-           </div>
-           <div>
-                <div>
-                    <div><img src="../Images/call.png" alt="call"></div>
-                    <div>
-                        <p>Phone Number</p>
-                        <p>+91 9883123454</p>
+            <div class="contactme-content">
+                <div class="left-section">
+                    <form action="">
+                        <input class="form-type" type="type" placeholder="Name">
+                        <input class="form-type" type="email" placeholder="Email">
+                        <input class="form-type" type="text" placeholder="Phone Number">
+                        <textarea class="form-message" placeholder="Message" id="" cols="30" rows="10"></textarea>
+                        <button class="form-send-btn" >SEND</button>
+                    </form>
+               </div>
+               <div class="right-section">
+                    <div class="phone">
+                        <div><img src="../Images/call.png" height="35px" width="35px" style="object-fit:contain;" alt="call"></div>
+                        <div>
+                            <p style="font-weight: bold; font-size: 1.25rem; ">Phone Number</p>
+                            <p>+91 9883123454</p>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <div><img src="../Images/mail.png" alt="mail"></div>
-                    <div>
-                        <p>Email</p>
-                        <p>tefhf.42@gmail.com</p>
+                    <div class="mail">
+                        <div><img src="../Images/mail.png" alt="mail"></div>
+                        <div>
+                            <p style="font-weight: bold; font-size: 1.25rem; ">Email</p>
+                            <p>tefhf.42@gmail.com</p>
+                        </div>
                     </div>
-                </div>
-           </div>
+               </div>
+            </div>
         </div>
         <footer>
             <div>
                 <p>@2024 All Rights  Reserved.</p>
             </div>
             <div class="icons">
-                <ul class="social_icon text_align_center">
-                    <li> <i class="fa fa-facebook-f"></i></li>
-                    <li> <i class="fa fa-twitter"></i></li>
-                    <li> <i class="fa fa-linkedin-square" aria-hidden="true"></i></li>
-                    <li> <i class="fa fa-instagram" aria-hidden="true"></i></li>
-                  </ul>
+                <ul class="">
+                    <li><img class="icon" src="../Images/facebook.png" alt=""></li>
+                    <li><img class="icon" src="../Images/instagram.png" alt=""></li>
+                    <li><img class="icon" src="../Images/twitter.png" alt=""></li>
+                    <li><img class="icon" src="../Images/linkedin.png" alt=""></li>
+                  </ul> 
             </div>
         </footer>
     </div>

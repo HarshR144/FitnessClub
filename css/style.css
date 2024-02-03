@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+
+    height :100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+}
+a{text-decoration: none;}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3rem ;
+    padding-right: 2rem;
+  
+}
+
+.logo a{
+
+    color:white;
+    font-size: 2.625rem;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 1.7rem;
+}
+.nav-links-bg{
+ 
+    display: flex;
+    /* align-items: center; */
+    justify-content:end;
+    background: #b40637d1;
+    height: 129px;
+    width: 66%;
+    border-radius: 0 0px 150px 150px;
+    padding-left: 10rem;
+}
+.nav-links{
+    /* margin-top: 1.7rem; */
+    display: flex;
+    padding-right: 13.2rem;
+    /* align-items: center; */
+    /* justify-content: center; */
+    
+}
+.nav-links ul{
+   
+    display: flex;
+    align-items: center;
+    
+    list-style-type:none ;
+    gap:3.3rem;
+    font-size: 1.2rem;
+  li a{
+    color: white;
+
+  }  
+}
+
+.nav-links ul li a.active{
+    color: black;
+}
+
+.hero{ 
+    position: relative;
+    background: url(../images/banner.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 0 0 0px 120px;}
+
+.hero-section-content{
+    position: absolute;
+    top: 14.5rem;
+    left: 20%;
+    color: white;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    p{
+        line-height: 1.5;
+        font-size: 1.2rem;
+    }
+
+}
+.hero-section-content h2{
+    font-size: 5.89rem;
+}
+
+.hero-section-btns{
+    display: flex;
+    gap:0.5rem;
+    /* flex-direction: column; */
+
+}
+.read-more {
+    
+    background: #363636;
+    max-width: 193px;
+    width: 100%;
+    transition: 0.5s;
+    a{
+        color: #fff;
+        font-size: 17px;
+        transition: ease-in all 0.5s;
+    }
+    display:block;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.read-more:hover {
+    background: #e50444;
+    border: none;
+ a{   color: #fff;}
+}
+.hero-section-btns .read-more{
+    max-width: 228px;
+    line-height: 76px;
+    height: 76px;
+    font-weight: bold;
+    font-size: 16px;
+    background: #b40637;
+    a{color: #fff;
+        transition: ease-in all 0.5s;
+
+    }
+}
+.hero-section-btns .read-more:hover{
+    background: #ffffff;
+    a{color: #0f1719;}
+}
+
+
+.about-brief-container{
+    position: relative;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top:5.5rem;
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+    max-width:70%;
+    margin-left: 18%;
+    /* width: 11/12; */
+}
+.about-brief-content{
+
+    display: flex;
+    flex-direction: column;
+    gap:3.5rem;
+    justify-content: center;
+    align-items:start;
+
+}
+.about-brief-content h2{
+    font-size: 3rem;
+}
+.about-brief-content p{
+
+    line-height: 1.5;
+    
+}   
+.about-brief-content .read-more{
+    margin-top: 1.5rem;
+} 
+.about-brief-img img{
+
+    position: relative;
+    z-index: 9999;
+    border-radius: 190px;
+   
+}
+.classes{
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top:5.5rem;
+    display:flex;
+    flex-direction: column;
+    
+}
+.classes h2{
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.cards{
+    margin: auto;
+    display: flex;
+    /* flex-direction: column; */
+    max-width: 60%;
+    gap:20rem
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:40% ;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    p,h3    {
+        text-align: center;
+    }
+    text-wrap:pretty ;
+    gap:1rem;
+    
+}
+.img{
+    margin-left: 1.8rem;
+}
+
+footer{
+    display: flex;
+    
+    align-items:center;
+    justify-content:space-around;
+    margin-top: 13rem;
+    padding-top: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: #0f1719;
+    color: white;
+    padding-bottom: 3rem;
+}
+.icons ul li .icon{
+    display: inline;
+    background-color: #fff;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: none;
+}
+
+
+.icons ul {
+    display: flex;
+    list-style-type:none ;
+    gap:0.7rem;
+
+}

@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+
+    height :100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+}
+.contact-page{
+    height: 100vh;
+}
+a{text-decoration: none;}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3rem ;
+    padding-right: 23rem;
+  
+}
+
+.logo a{
+
+    color:white;
+    font-size: 2.625rem;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 1.7rem;
+}
+.nav-bg{
+ 
+
+    background: #b40637;
+    height: 129px;
+    border-radius: 0 0 90px 90px;
+}
+.nav-links{
+    display: flex;
+    justify-content: center;
+}
+.nav-links ul{
+   
+    display: flex;
+    align-items: center;
+    list-style-type:none ;
+    gap:3.3rem;
+    font-size: 1.2rem;
+  li a{
+    color: white;
+
+  }  
+}
+.nav-links ul li a.active{
+    color: black;
+}
+
+.contactme-container{
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 5rem;
+    gap:3rem;
+}
+.contactme-container h2{
+    font-size: 3rem;
+    text-align: center;
+}
+.contactme-content{
+    margin-left: 25rem;
+    display: flex;
+    /* justify-content: space-between; */
+    width: 50%;
+    gap:7rem;
+    
+
+}
+.left-section form{
+    display: flex;
+    flex-direction: column;
+}
+
+form .form-type{
+    margin-bottom: 3rem;
+    border: none;
+    width: 600px;
+    padding-bottom: 0.5rem;
+    font-size:1rem;
+    border: inherit;
+    border-bottom: 1px solid black;
+}
+input:focus {
+    outline:none;
+
+    border-bottom: 2px solid black;
+    
+}
+form .form-message{
+    margin-bottom: 3rem;
+    border: none;
+    width: 600px;
+    padding: 0.5rem 0.5rem;
+    font-size:1rem;
+    border: inherit;
+    border: 1px solid black;
+}
+form .form-send-btn{
+    border:none;
+    background-color: #0f1719;
+    width: 200px;
+    height:70px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: 0.4s;
+}
+form .form-send-btn:hover{
+    background-color: #b40637;
+}
+
+.right-section{
+    display: flex;
+    flex-direction: column;
+   
+    margin-top: 7rem;
+    gap:2rem;
+}
+.right-section .mail, .right-section .phone{
+    display: flex;
+    gap:2rem;
+}
+footer{
+    display: flex; 
+    align-items:center;
+    justify-content:space-around;
+    margin-top: 13rem;
+    padding-top: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: #0f1719;
+    color: white;
+    padding-bottom: 3rem;
+}
+.icon{
+    display: inline;
+    background-color: #fff;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border-color: #0f1719;
+}
+
+
+.icons ul {
+    display: flex;
+    list-style-type:none ;
+    gap:0.7rem;
+
+}

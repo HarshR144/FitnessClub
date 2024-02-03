@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+
+    height :100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+}
+a{text-decoration: none;}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3rem ;
+    padding-right: 23rem;
+  
+}
+
+.logo a{
+
+    color:white;
+    font-size: 2.625rem;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 1.7rem;
+}
+.nav-bg{
+ 
+
+    background: #b40637;
+    height: 129px;
+    border-radius: 0 0 90px 90px;
+}
+.nav-links{
+    display: flex;
+    justify-content: center;
+}
+.nav-links ul{
+   
+    display: flex;
+    align-items: center;
+    list-style-type:none ;
+    gap:3.3rem;
+    font-size: 1.2rem;
+  li a{
+    color: white;
+
+  }  
+}
+.nav-links ul li a.active{
+    color: black;
+}
+
+.about-container{
+    display: flex;
+    gap:3rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 10rem;
+}
+.about-img img{
+    position: relative;
+    z-index: 9999;
+    border-radius: 190px;
+}
+.about-content{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap:2rem;
+    width: 50%;
+    
+}
+
+.about-content h2 {
+    font-size: 4rem;
+}
+.about-content div p{
+    font-size: 1.2rem;
+    text-wrap:pretty;
+    
+    
+}
+
+.read-more {
+    
+    background: #363636;
+    max-width: 193px;
+    width: 100%;
+    transition: 0.5s;
+    a{
+        color: #fff;
+        font-size: 17px;
+        transition:1s;
+    }
+    display:block;
+    height: 64px;
+    line-height: 64px;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.read-more:hover {
+    background: #e50444;
+    border: none;
+ a{   color: #fff;}
+}
+
+
+
+
+
+
+footer{
+    display: flex; 
+    align-items:center;
+    justify-content:space-around;
+    margin-top: 13rem;
+    padding-top: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: #0f1719;
+    color: white;
+    padding-bottom: 3rem;
+}
+.icon{
+    display: inline;
+    background-color: #fff;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border-color: #0f1719;
+}
+
+
+.icons ul {
+    display: flex;
+    list-style-type:none ;
+    gap:0.7rem;
+
+}
