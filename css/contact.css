@@ -13,19 +13,26 @@ body{
 
 }
 .contact-page{
-    height: 100vh;
+    width: 100vw;
+    height :100vh;
+    overflow-x: hidden;
 }
 a{text-decoration: none;}
 
 .navbar{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 3rem ;
-    padding-right: 23rem;
+    padding-right:28.9%;
   
 }
 
+.nav-toggler{
+    display: none;
+    margin-right: 6rem;
+}
 .logo a{
 
     color:white;
@@ -36,7 +43,7 @@ a{text-decoration: none;}
 }
 .nav-bg{
  
-
+    width: 100%;
     background: #b40637;
     height: 129px;
     border-radius: 0 0 90px 90px;
@@ -62,26 +69,35 @@ a{text-decoration: none;}
 }
 
 .contactme-container{
+    width: 80%;
+    margin: auto;
     display: flex;
     flex-direction: column;
-    
     margin-top: 5rem;
     gap:3rem;
 }
 .contactme-container h2{
     font-size: 3rem;
     text-align: center;
+  
 }
 .contactme-content{
-    margin-left: 25rem;
+    /* margin-left: 25rem; */
     display: flex;
     /* justify-content: space-between; */
-    width: 50%;
-    gap:7rem;
-    
+    width: 79%;
+    gap:5rem;
+    margin: auto;
+
 
 }
+.left-section{
+    width: 52%;
+    display: flex;
+    /* justify-content: center; */
+}
 .left-section form{
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -89,7 +105,7 @@ a{text-decoration: none;}
 form .form-type{
     margin-bottom: 3rem;
     border: none;
-    width: 600px;
+    width:100%;
     padding-bottom: 0.5rem;
     font-size:1rem;
     border: inherit;
@@ -97,14 +113,12 @@ form .form-type{
 }
 input:focus {
     outline:none;
-
     border-bottom: 2px solid black;
-    
 }
 form .form-message{
     margin-bottom: 3rem;
     border: none;
-    width: 600px;
+    width: 100%;
     padding: 0.5rem 0.5rem;
     font-size:1rem;
     border: inherit;
@@ -137,6 +151,7 @@ form .form-send-btn:hover{
     gap:2rem;
 }
 footer{
+    width: 100%;
     display: flex; 
     align-items:center;
     justify-content:space-around;

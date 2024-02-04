@@ -19,10 +19,14 @@ a{text-decoration: none;}
     justify-content: space-between;
     align-items: center;
     padding-left: 3rem ;
-    padding-right: 23rem;
+    padding-right:28.9%;
   
 }
 
+.nav-toggler{
+    display: none;
+    margin-right: 6rem;
+}
 .logo a{
 
     color:white;
@@ -64,17 +68,21 @@ a{text-decoration: none;}
     width: 80%;
     margin: auto;
     margin-top: 10rem;
+    justify-content: center;
 }
 .about-img img{
     position: relative;
     z-index: 9999;
     border-radius: 190px;
+    width: 100%;
 }
+
 .about-content{
     
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+   
     gap:2rem;
     width: 50%;
     
@@ -123,6 +131,7 @@ a{text-decoration: none;}
 
 
 footer{
+    width: 100%;
     display: flex; 
     align-items:center;
     justify-content:space-around;

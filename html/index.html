@@ -6,6 +6,7 @@
     <title>Fitness Club</title>
     <link rel="icon" href="../Images/icon.png" type="image/gif" />
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -13,10 +14,11 @@
 <body class="main">
     <header class="hero">
         <div class="navbar">
-            <div class="logo">
-                <a href="index.html">FitPro</a>
-            </div>
+           
             <div class="nav-links-bg">
+                <div class="logo">
+                    <a href="index.html">FitPro</a>
+                </div>
                 <div class="nav-links">
                     <ul >
                         <li><a style="color: black;" href="index.html">Home</a></li>
@@ -24,6 +26,9 @@
                         <li><a href="#classes">Services</a></li>
                         <li><a href="contact.html">Contact Us</a></li>
                       </ul>
+                    <button class="nav-toggler" style=" background: none; border: none;">
+                        <img src="../Images/menuicon.png" style=" background: transparent;width:4rem;border: none;" alt="">
+                    </button>
                 </div>
             </div>
         </div>
@@ -52,15 +57,15 @@
             <button class="read-more"><a href="about.html">Read More</a> </button>
         </div>
         <div  class="about-brief-img">
-            <img src="../Images/about_img.png" alt="about Img">
+        <img  src="../Images/about_img.png"  alt="about Img">
         </div>
 
     </div>
     <div class="classes" id="classes">
-        <h2>Our Classes</h2>
+        <div><h2>Our Classes</h2></div>
         <div class="cards">
             <div class="progression card">
-                <div>
+                <div class="img-div">
                     <img class="progression-img img" src="../Images/cho3.3.png" alt="">
                 </div>
                     
@@ -73,8 +78,8 @@
                 </div>
             </div>  
             <div class="workout card">
-                <div>
-                    <img class="workout-img img"src="../Images/cho2.2.png" alt="" height="100px" width="100px">
+                <div class="img-div">
+                    <img class="workout-img img"src="../Images/cho2.png" alt="" >
                 </div>
                     
                 <div class="workout-content content">
@@ -87,7 +92,7 @@
             </div>
             
             <div class="nutrition card">
-                <div>
+                <div class="img-div">
                     <img  class="nutrition-img img" src="../Images/cho1.1.png" alt="">
                 </div>
                     

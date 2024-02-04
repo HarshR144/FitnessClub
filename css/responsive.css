@@ -1,0 +1,135 @@
+@media (max-width: 1300px) {
+  
+.nav-links ul{
+    gap:1.6rem ;
+    font-size: 1rem;
+}
+.about-brief-container{
+    flex-wrap: wrap-reverse;
+    margin: auto;
+    text-align: center;
+}
+.about-brief-content {
+    align-items: center;
+    width: 100%;
+}
+.about-container{
+    flex-wrap: wrap;
+
+  }
+ 
+.about-content{
+    width: 100%;
+    align-items: center;
+}
+
+}
+@media (max-width: 980px) {
+
+.logo{
+    margin-left: 3rem;
+}
+.nav-links ul{
+    gap:0.6rem ;
+    font-size:1rem ;
+
+}
+.contactme-content{
+    flex-wrap: wrap;
+    
+}
+.left-section{
+    margin: 0;
+    width: 100%;
+    margin: auto;
+   
+}
+.right-section{
+    flex-direction: row;
+    gap: 5rem;
+}
+footer{
+    margin-top: 8rem;
+   
+}
+}
+@media (max-width:800px){
+    .logo{
+        position: relative;
+        left: 0;
+    }
+    .navbar{
+        padding:0 ;
+    }
+    .nav-links-bg{
+        width:100%;
+        justify-content: space-around;
+        margin-right: 1rem;
+    }
+    .nav-links ul{
+        flex-direction: column;
+        display: none;
+    }
+  
+    .nav-toggler {
+        display:inline ;
+       
+    }
+    .nav-links{
+        flex-direction: column-reverse;
+        margin-right: 0;
+        
+        
+    }
+    .about-brief-container{
+        flex-wrap: wrap-reverse;
+        margin: auto;
+        text-align: center;
+
+    }
+    .about-brief-content {
+        align-items: center;
+        width: 100%;
+    }
+    .cards{
+       flex-direction: column;
+       gap: 4rem;
+
+    }
+    .card{
+        width: 100%;
+        
+    }
+
+    .contactme-container h2{
+        font-size: 2rem;
+    }
+    .left-section form{
+        align-items: center;
+    }
+    footer{
+        flex-wrap: wrap-reverse;
+        gap: 2rem;
+    }
+    
+}
+
+@media (max-width:500px){
+    .hero-section-btns{
+        flex-wrap: wrap;
+        gap:1rem;
+        padding-bottom: 2rem;
+    }
+    .hero{
+        /* width: 100%; */
+        /* overflow-y:hidden ; */
+    }
+    .hero-section-content{
+        
+        /* width: 100%; */
+    }
+    .hero-section-content h2{
+        font-size: 3rem;
+    }
+
+}
