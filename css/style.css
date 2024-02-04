@@ -8,7 +8,7 @@
 body{
     width: 100vw;
     height :100vh;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     overflow-y: auto;
 
 }
@@ -82,13 +82,15 @@ a{text-decoration: none;}
 
 .hero{ 
     position: relative;
-    background: url(../images/banner.jpg);
     height: 100vh;
-    width: 100%;
+    /* width: 100vw; */
+    background: url(../images/banner.jpg);
+
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     border-radius: 0 0 0px 120px;
+    overflow-x: hidden;
 }
 
 .hero-section-content{
@@ -109,7 +111,9 @@ a{text-decoration: none;}
 .hero-section-content h2{
     font-size: 5.89rem;
 }
-
+.hero-section-content p span{
+    font-size: 1.6rem;
+}
 .hero-section-btns{
     display: flex;
     gap:0.5rem;
@@ -128,10 +132,10 @@ a{text-decoration: none;}
         transition: ease-in all 0.5s;
     }
     display:block;
-    height: 64px;
-    line-height: 64px;
+    height: 4rem;
+    /* line-height: 4rem; */
     text-align: center;
-    border-radius: 50px;
+    border-radius: 3.125rem;
     border: none;
     text-transform: uppercase;
     font-weight: normal;
@@ -143,14 +147,14 @@ a{text-decoration: none;}
  a{   color: #fff;}
 }
 .hero-section-btns .read-more{
-    max-width: 228px;
-    line-height: 76px;
-    height: 76px;
+    max-width: 14.25rem;
+    /* line-height: 4.75rem; */
+    height: 4.75rem;
     font-weight: bold;
-    font-size: 16px;
+    font-size:1rem;
     background: #b40637;
     a{color: #fff;
-        transition: ease-in all 0.5s;
+        transition: 0.4s;
 
     }
 }
